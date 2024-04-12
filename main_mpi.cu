@@ -374,6 +374,8 @@ unsigned long long int search_mpi(string query_file,string data_file,int world_s
     }
     return s_pointers.final_count[0];
 }
+
+// test
 int main(int argc, char *argv[]) {
     MPI_Init(&argc,&argv);
     int world_size;
